@@ -1,15 +1,15 @@
 <template>
-  <hello-world />
+  <top-bar />
 </template>
 
 <script>
-import HelloWorld from "../components/HelloWorld";
+import TopBar from "@/components/TopBar";
 
 export default {
-  name: "Home",
+  name: "HomeView",
 
   components: {
-    HelloWorld,
+    TopBar,
   },
 };
 </script>
